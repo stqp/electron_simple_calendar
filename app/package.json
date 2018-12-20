@@ -1,0 +1,19 @@
+{
+  "name": "simple-calendar",
+  "description": "Display simple calendar",
+  "version": "1.0.0",
+  "author": "stqp",
+  "buid": {
+    "appId": "stqp.site",
+    "mac": {
+      "arch": "x64",
+      "category": "public.app-category.education",
+      "target": "pkg",
+      "icon": "build/icon.icns"
+    }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  }
+}

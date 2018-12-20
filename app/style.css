@@ -1,0 +1,33 @@
+
+table{
+  margin-left: auto;
+  margin-right: auto
+}
+.today{
+  background-color: skyblue;
+  color:white;
+}
+#header{
+  height: 40px;
+  background-color: black;
+  color:white;
+}
+#main{
+  text-align: center;
+  width:100%;
+}
+#to_prev_month, #to_next_month{
+  background-color: gray;
+  color:white;
+  width: 100px;
+}
+
+#wrap_to_prev_month{
+  margin:10px;
+  text-align: left;
+  float:left;
+}
+#wrap_to_next_month{
+  padding:10px 10px 10px;
+  text-align: right;
+}

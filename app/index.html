@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calendar</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function for_debug(){
+      setTimeout(function(){
+        location.reload()
+      },3000)
+    }
+    //for_debug();
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="header">
+      <div id="wrap_to_prev_month"><button id="to_prev_month" type="">前の月</button></div>
+      <div id="wrap_to_next_month" ><button id="to_next_month" type="">次の月</button></div>
+    </div>
+    <div id="main">
+      <h2 id="current_date"></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+          </tr>
+        </thead>
+        <tbody id="calendar">
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="footer"></div>
+
+  </div>
+
+  <script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+
+</html>
